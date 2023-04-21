@@ -8,6 +8,7 @@ def key_to_num(keyword):
 # Function to encrypt plaintext using Vigenère cipher
 def encrypt(plaintext, keyword): 
 # Convert keyword to numerical values
+    key_num = key_to_num(keyword) 
 # Convert plaintext to numerical values
 # Encrypt plaintext
 # Generate Vigenère cipher and print result
