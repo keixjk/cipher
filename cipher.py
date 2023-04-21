@@ -12,4 +12,12 @@ def encrypt(plaintext, keyword):
 # Convert plaintext to numerical values
 plaintext_num = [ord(char) - 65 for char in plaintext]
 # Encrypt plaintext
+ciphertext = ""
+key_len = len(keyword)
+    for i, char_num in enumerate(plaintext_num):
+        key_char_num = key_num[i % key_len]
+        ciphertext_char_num = (char_num + key_char_num) % 26
+        ciphertext_char = chr(ciphertext_char_num + 65)
+        ciphertext += ciphertext_char    
+    return ciphertext
 # Generate Vigenère cipher and print result
