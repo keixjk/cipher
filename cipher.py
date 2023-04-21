@@ -6,7 +6,8 @@ keyword = input("Enter keyword (all uppercase letters): ")
 def key_to_num(keyword):
     return [ord(char) - 65 for char in keyword]
 # Function to encrypt plaintext using Vigenère cipher
- # Convert keyword to numerical values
+def encrypt(plaintext, keyword): 
+# Convert keyword to numerical values
 # Convert plaintext to numerical values
 # Encrypt plaintext
 # Generate Vigenère cipher and print result
