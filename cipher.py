@@ -21,3 +21,5 @@ key_len = len(keyword)
         ciphertext += ciphertext_char    
     return ciphertext
 # Generate Vigenère cipher and print result
+    ciphertext = encrypt(plaintext, keyword)
+    print("Ciphertext: " + ciphertext)
