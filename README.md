@@ -14,5 +14,5 @@
 # 5. Run the code.
 # 6. It will ask for a plaintext and keyword.
 # 7. Press Enter after inputting text.
-# 8. The ciphertext will be displaayed. 
+# 8. The ciphertext will be displayed. 
 
